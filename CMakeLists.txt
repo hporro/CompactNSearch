@@ -53,7 +53,7 @@ if(USE_DOUBLE_PRECISION)
 endif(USE_DOUBLE_PRECISION)
 
 option(BUILD_DEMO "Build example of how to use this library."
-	ON)
+	OFF)
 
 if(BUILD_DEMO)
 	add_subdirectory(demo)
